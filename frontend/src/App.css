@@ -1,0 +1,26 @@
+.bg-white-hover:hover {
+  background: #fff;
+}
+/* x-sm */
+@media (max-width: 575px) {
+}
+
+/* sm */
+@media (min-width: 576px) {
+}
+
+/*  Medium devices (tablets) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops) */
+@media (min-width: 1400px) {
+}

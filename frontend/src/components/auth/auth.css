@@ -1,0 +1,99 @@
+.auth-form-holder {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.auth-form-holder .form-group {
+  position: relative;
+  margin-bottom: 1rem;
+  font-size: 13px;
+}
+
+.auth-form-holder input {
+  text-align: left;
+  width: 100%;
+  font-size: 12px;
+}
+.auth-form-holder input:focus ~ .floating-label,
+.auth-form-holder input:not(:focus):valid ~ .floating-label {
+  top: -10px;
+  bottom: 10px;
+  font-size: 11px;
+  opacity: 1;
+}
+
+.inputText {
+  font-size: 14px;
+  height: 35px;
+  border: 0;
+  border-bottom: 1.5px solid #000;
+  border-radius: 0;
+  padding-left: 0;
+}
+.inputText-border-danger {
+  border-bottom: 1.5px solid rgb(248, 48, 48);
+}
+.inputText-border-danger:focus {
+  border-bottom: 2px solid rgb(248, 48, 48) !important;
+}
+
+.inputText-border-success {
+  border-bottom: 1.5px solid rgb(4, 177, 30);
+}
+.inputText-border-success:focus {
+  border-bottom: 2px solid rgb(4, 177, 30) !important;
+}
+.auth-form-holder .form-control:focus {
+  border: 0;
+  box-shadow: 0 0 0 0 #000;
+  border-bottom: 2px solid var(--main-color);
+  transition: 0.4s ease all;
+}
+
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  top: 5px;
+  transition: 0.2s ease all;
+}
+
+.auth-form-holder form {
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem 1rem;
+
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.auth-form-holder .auth-btn {
+  background: var(--main-color);
+  width: 100%;
+  height: 40px;
+  border: 1px solid #333;
+  font-weight: 700;
+}
+.auth-form-holder .auth-btn:hover {
+  background: var(--main-hover);
+}
+
+.logo-holder img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+}
+
+/* auth buttons */
+.social-auth-btn {
+  /* border: 1px solid #000; */
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 5px 0;
+  width: 90%;
+  margin-bottom: 1rem;
+  align-self: center;
+}

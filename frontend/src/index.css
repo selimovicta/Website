@@ -1,0 +1,14 @@
+:root {
+  --dark-bg: rgb(78, 77, 77);
+  --light-bg: #fff;
+  --lighter-bg: rgb(155, 148, 148);
+}
+
+.App {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}

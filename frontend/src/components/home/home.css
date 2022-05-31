@@ -1,0 +1,13 @@
+.hero-holder {
+  margin-top: 1rem;
+}
+.hero-section {
+  background: var(--dark-bg);
+  height: 75vh;
+}
+
+.home-categories-holder {
+  background: var(--lighter-bg);
+  height: 65vh;
+  margin-top: 1rem;
+}
